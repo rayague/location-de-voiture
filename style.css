@@ -1,0 +1,212 @@
+html{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(26, 25, 25);
+    padding: 0;
+    margin: 0;
+    /* box-sizing: border-box; */
+    overflow-x: hidden;
+}
+
+header{
+    height: auto;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.9);
+    box-shadow: 5px 5px 10px rgb(15, 15, 15);
+    color: white;
+    padding: 50px;
+    margin: 0;
+}
+
+header nav{
+    display: flex;
+    width: 100%;
+
+}
+
+header nav span{
+    font-weight: bold;
+    font-family: sans-serif;
+    font-size: 25px;
+    color: rgb(197, 128, 0);
+}
+
+header nav ul {
+    display: flex;
+    margin: 0;
+    position: absolute;
+    right: 20px;
+    top: 50px;
+}
+
+header nav ul li .link{
+    color: wheat;
+    text-decoration: none;   
+    margin: 0;
+    margin-inline: 15px;
+    padding: 5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 900;
+    border-bottom: 3px solid rgb(255, 207, 117);
+    padding-bottom: 10px;
+
+}
+
+header nav ul li .auth{
+    color: orange;
+    text-decoration: none;   
+    margin: 0;
+    margin-inline: 15px;
+    border: 1px solid orange;
+    border-radius: 10px;
+    padding: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+header nav ul li .auth:hover{
+    background-color: orange;
+    color: white;
+    transition: ease-in-out 0.1s;
+    box-shadow: 5px 5px 10px rgb(110, 73, 3);
+}
+
+header nav ul li .link:hover{
+    background-color: orange;
+    color: white;
+    transition: ease-in-out 0.1s;
+    padding: 10px;
+    border-radius: 10px;
+    border-bottom: none;
+}
+
+nav ul li{
+    list-style: none;
+}
+
+.register{
+    height: 560px;
+    width: 450px;
+    margin-inline: auto;
+    border: 1px solid orange;
+    padding-top: 80px;
+    align-items: center;
+    border-radius: 25px;
+    margin-top: 100px;
+}
+
+.login{
+    height: 560px;
+    width: 450px;
+    margin-inline: auto;
+    border: 1px solid orange;
+    padding-top: 80px;
+    align-items: center;
+    border-radius: 25px;
+    margin-top: 100px;
+}
+
+form{
+    margin: 40px;
+    background-color: rgb(15, 15, 15);
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    overflow-x: hidden;
+    padding: 40px;
+    border-radius: 20px;
+   
+}
+
+.form-group{
+    margin-top: 20px;
+}
+
+input{
+    height: 50px;
+    width: 100%;
+    border-radius: 10px;
+    border: none;
+    outline-color: orange;
+}
+
+input::placeholder{
+    font-weight: 700;
+}
+
+input:focus{
+    height: 55px;
+}
+
+input[type="submit"]{
+    margin-inline: 5px;
+    height: 45px;
+    background-color: orange;
+    border: none;
+    color: white;
+    font-weight: 800;
+    font-family: sans-serif;
+    border-radius: 10px;
+    margin-top: 40px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover{
+    box-shadow: 10px 10px 20px black;
+    background-color: rgb(197, 128, 0);
+}
+
+section {
+    width: 100%;
+    height: 80vh;
+    background-color: gray;
+    margin-top: 50px;
+    padding: auto;
+    
+}
+
+.text-div{
+    height: 500px;
+    width: 700px;
+    background-color: yellow;
+    margin-inline: auto;
+    border-radius: 20px;
+    z-index: -1;
+    transition: ease-in 0.3s linear;
+}
+
+.img-div{
+    height: 500px;
+    width: 700px;
+    background-color: rgb(102, 102, 89);
+    border-radius: 20px;
+    position: relative;
+    top: 170px;
+    left: -550px;
+    display: flex;
+}
+
+section .text-div a{
+    text-decoration: none;
+    border: 1px solid orange;
+    padding: 10px;
+    margin-inline: 20px;
+    border-radius: 10px;
+    color: orange;
+    font-size: 23px;
+}
+
+section .text-div a:hover{
+    background-color: orange;
+    color: white;
+    padding: 14px;
+}
+
+section .text-div .button{
+    position: relative;
+    top: 60px;
+    right: -200px;
+}
